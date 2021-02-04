@@ -3,17 +3,21 @@ body {
 }
 
 .container {
-    background-color: #333;
+    display: flex;
+    justify-content: center;
     padding: 1rem;
     margin-top: 1rem;
 }
 
 .draggable {
+    margin: 1rem;
     padding: 1rem;
-    ;
     background-color: white;
     border: 1px solid black;
     cursor: move;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5%;
 }
 
 .draggable.dragging {
